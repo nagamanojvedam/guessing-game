@@ -17,7 +17,7 @@ header {
   padding: 2%;
 }
 .header-text {
-  margin-left: 100px;
+  margin-left: 120px;
 }
 
 .header-text,
@@ -34,7 +34,7 @@ header {
   margin: auto;
   width: 10%;
   text-align: center;
-  border-radius: 3px;
+  border-radius: 5px;
 }
 
 img {
@@ -68,9 +68,15 @@ img {
 }
 
 .input-box {
+  font-family: "Chakra Petch", sans-serif;
   font-size: 36px;
-  padding: 20px;
+  font-weight: bold;
+  padding: 10px;
   margin-bottom: 20px;
+  text-align: center;
+  background-color: azure;
+  border: none;
+  border-radius: 5px;
 }
 
 .game-info-text {
@@ -78,6 +84,7 @@ img {
 }
 
 .btn {
+  font-family: "Chakra Petch", sans-serif;
   font-size: 32px;
   padding: 10px;
   background-color: azure;
@@ -85,5 +92,12 @@ img {
   border: none;
   margin-bottom: 10px;
   font-weight: bold;
-  border-radius: 3px;
+  border: 3px solid black;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  color: azure;
+  background-color: black;
+  border: 3px solid azure;
 }
