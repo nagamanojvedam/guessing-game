@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guessing Game</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <img
+        src="./images/profile-picture.png"
+        alt="profile-picture"
+        class="profile-img"
+      />
+      <div class="header-text">
+        <h1>Guess The Number</h1>
+        <p>Guess the number between 1 - 20</p>
+      </div>
+      <div class="score-text">
+        <p>High Score: <span>20</span></p>
+        <p>Current Score: <span>20</span></p>
+      </div>
+    </header>
+    <div class="question">
+      <p class="question-text">?</p>
+    </div>
+    <section class="game-board">
+      <img src="./images/mario.png" alt="image of mario" class="board-img" />
+      <div class="game-board-text">
+        <input type="number" class="input-box" min="1" max="20" />
+        <p class="game-info-text">Start Guessing...</p>
+        <button class="check btn">Check</button>
+        <button class="play-again btn">Play Again</button>
+      </div>
+      <img src="./images/luigi.png" alt="image of luigi" class="board-img" />
+    </section>
+  </body>
+</html>

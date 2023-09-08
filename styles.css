@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Chakra Petch", sans-serif;
+  background-color: black;
+  color: azure;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2%;
+}
+.header-text {
+  margin-left: 100px;
+}
+
+.header-text,
+.score-text {
+  font-size: 28px;
+  text-align: center;
+}
+
+.question {
+  background-color: azure;
+  color: black;
+  font-size: 72px;
+  font-weight: bold;
+  margin: auto;
+  width: 10%;
+  text-align: center;
+  border-radius: 3px;
+}
+
+img {
+  display: block;
+}
+
+.profile-img {
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 3px solid azure;
+  border-radius: 50%;
+}
+
+.game-board {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.board-img {
+  width: 30%;
+  height: 60vh;
+}
+
+.game-board-text {
+  font-size: 36px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-box {
+  font-size: 36px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.game-info-text {
+  margin-bottom: 20px;
+}
+
+.btn {
+  font-size: 32px;
+  padding: 10px;
+  background-color: azure;
+  color: black;
+  border: none;
+  margin-bottom: 10px;
+  font-weight: bold;
+  border-radius: 3px;
+}
