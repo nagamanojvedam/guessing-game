@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Chakra Petch", sans-serif;
+  font-family: 'Chakra Petch', sans-serif;
   background-color: black;
   color: azure;
 }
@@ -14,7 +14,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 2%;
+  padding: 1%;
 }
 .header-text {
   margin-left: 120px;
@@ -24,6 +24,7 @@ header {
 .score-text {
   font-size: 28px;
   text-align: center;
+  padding: 10px;
 }
 
 .question {
@@ -68,7 +69,7 @@ img {
 }
 
 .input-box {
-  font-family: "Chakra Petch", sans-serif;
+  font-family: 'Chakra Petch', sans-serif;
   font-size: 36px;
   font-weight: bold;
   padding: 10px;
@@ -84,7 +85,7 @@ img {
 }
 
 .btn {
-  font-family: "Chakra Petch", sans-serif;
+  font-family: 'Chakra Petch', sans-serif;
   font-size: 32px;
   padding: 10px;
   background-color: azure;
@@ -94,6 +95,7 @@ img {
   font-weight: bold;
   border: 3px solid black;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .btn:hover {
