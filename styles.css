@@ -8,6 +8,10 @@ body {
   font-family: 'Chakra Petch', sans-serif;
   background-color: black;
   color: azure;
+  background-image: url(./images/game-background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 header {
