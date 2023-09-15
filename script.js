@@ -14,6 +14,7 @@ const changeHighScore = text =>
 
 const getPlayerNumber = () =>
   Number(document.querySelector('.input-box').value);
+
 const setPlayerNumber = () => (document.querySelector('.input-box').value = '');
 
 const getGuessNumber = () =>
@@ -21,13 +22,6 @@ const getGuessNumber = () =>
 
 const MIN_RANGE = 1;
 const MAX_RANGE = 20;
-
-// let guessNumber = 0;
-// for (let i = 0; i < 100; i++) {
-//   guessNumber =
-//     Math.trunc(Math.random() * (MAX_RANGE - MIN_RANGE + 1)) + MIN_RANGE;
-//   console.log(guessNumber);
-// }
 
 let guessNumber = getGuessNumber();
 
